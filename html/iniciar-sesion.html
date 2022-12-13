@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/quantum-logo.png">
+    <link rel="stylesheet" href="../css/estilos-inicio-sesion.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Quantum</title>
+</head>
+<body>
+    <header>
+        <div class="header_sup">
+             <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/quantum-logo-horizontal.png" alt="">
+                </a>
+             </div>
+             <div class="buscador">
+                <input type="search" placeholder="Buscar... ">
+             </div>
+        </div>
+        <div class="contenedor">
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="portatiles.html">Portatiles</a></li>
+                        <li><a href="torres.html">Torres</a></li>
+                        <li><a href="monitores.html">Monitores</a></li>
+                        <li><a href="#">Periféricos</a>
+                        <ul>
+                            <li><a href="teclado.html">Teclados</a></li>
+                            <li><a href="diademas.html">Diademas</a></li>
+                            <li><a href="mouse.html">Mouse</a></li>
+                            <li><a href="microfonos.html">Microfono</a></li>
+                        </ul>
+                        </li>
+                        <li><a href="partes.html">Partes</a></li>
+                        <li id="iniciar"><a href="../html/iniciar-sesion.html">Iniciar Sesion</a></li>
+                        <li id="registrarse"><a href="registrarse.html">Registrarse</a></li>
+                    </ul>
+                </nav>
+            </div>
+    </header>
+    <form action="" class="login">
+        <h1 class="title">LOGIN</h1> 
+        
+        <label>
+            <i class="fa-solid fa-user"></i>
+            <input placeholder="Usuario" type="text" id="username">
+        </label><br>
+
+        <label>
+            <i class="fa-solid fa-lock"></i>
+            <input placeholder="Contraseña" type="password" id="password">
+        </label><br>
+        <button onclick="login()" id="button">Iniciar Sesion</button>
+        <a href="../html/registrarse" class="link">Registrarse</a><br>
+        <a href="#" class="link">Olvidaste tu contraseña?</a><br>
+    </form>
+    <script src="../js/inicio-sesion.js"></script>
+    
+</body>
+
+</html>
