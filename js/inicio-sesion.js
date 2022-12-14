@@ -10,7 +10,8 @@ function login(){
             'ERROR',
             'LLene todos los campos',
             'error'
-          )
+          
+            )
     }
 }
 
@@ -19,7 +20,8 @@ function login(){
 function cargaP(){
     Swal.fire(
         '!Bienvenido a Quantum!',
-        'Explora y diviértete :)',
+        'Explora y diviértete  :)',
         'success'
+        
     )
 }
