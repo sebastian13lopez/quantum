@@ -49,7 +49,7 @@
     <section class="contenido">
         <div class="mostrador" >
             <div class="fila">
-                <div class="item">
+                <div class="item" onclick="esDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-1.png" class="foto">
                         <p class="nombre">MONITOR GAMER LG 24″ ULTRA GEAR</p>
@@ -57,7 +57,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="noEsDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-2.png" class="foto">
                         <p class="nombre">MONITOR GAMING LG 27” Full HD.</p>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="esDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-3.png" class="foto">
                         <p class="nombre">MONITOR LG 22MK400H led 21.5 ” 75HZ</p>
@@ -73,7 +73,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="noEsDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-4.png" class="foto">
                         <p class="nombre">MONITOR GAMER LG 27″ ULTRA GEAR</p>
@@ -83,7 +83,7 @@
                 
             </div>
             <div class="fila">
-                <div class="item">
+                <div class="item" onclick="noEsDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-5.png" class="foto">
                         <p class="nombre">Monitor con FreeSync™ HDR FHD de 29”</p>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="esDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-6.png" class="foto">
                         <p class="nombre">MONITOR LG 24″ 75HZ</p>
@@ -99,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="noEsDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-7.png" class="foto">
                         <p class="nombre">MONITOR LG 19.5″</p>
@@ -107,7 +107,7 @@
                     </div>
                 </div>
 
-                <div class="item">
+                <div class="item" onclick="noEsDisponible()">
                     <div class="contenedor-foto">
                         <img src="../img/monitores/monitor-8.png" class="foto">
                         <p class="nombre">MONITOR GAMEMAX WQHD</p>
@@ -119,5 +119,9 @@
             </div>
         </div>
     </section>
+
+    <script src="../js/sweetalert2.all.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.js" integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4=" crossorigin="anonymous"></script>
+    <script src="../js/disponible.js"></script>
 </body>
 </html>
