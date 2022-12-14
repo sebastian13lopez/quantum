@@ -15,13 +15,14 @@ function login(){
     }
 }
 
-//alert("pene");
+alert("pene");
 
 function cargaP(){
+
     Swal.fire(
         '!Bienvenido a Quantum!',
         'Explora y diviértete  :)',
         'success'
-        
+
     )
 }
